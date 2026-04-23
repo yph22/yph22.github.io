@@ -9,6 +9,7 @@
 
 main:
   - title: "Publications"
-    url: /publications/ 
-    
-  
+    url: /publications/
+  - title: "学习笔记"
+    url: /notes/
+
