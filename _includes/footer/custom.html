@@ -2,7 +2,17 @@
 
 <a href="/sitemap/">Sitemap</a>
 
-<!-- Support for MatJax -->
+<!-- MathJax：启用 $...$ 行内与 $$...$$ 块级，便于长文 LaTeX 风格笔记 -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    }
+  };
+</script>
 <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
 

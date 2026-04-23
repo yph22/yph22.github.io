@@ -1,4 +1,5 @@
 ---
+published: true
 title: "重温OPD（On-Policy Distillation） 学习笔记"
 collection: notes
 date: 2026-04-23
