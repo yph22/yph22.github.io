@@ -1,6 +1,6 @@
 ---
 published: true
-title: "重温OPD（On-Policy Distillation） 学习笔记"
+title: "重温OPD（On-Policy Distillation）"
 collection: notes
 date: 2026-04-23
 excerpt: "LaTeX 整理，全文以 PDF 提供。"
