@@ -2,7 +2,7 @@
 published: true
 title: "重温OPD（On-Policy Distillation）"
 collection: notes
-date: 2026-04-23
+date: 2026-04-29
 excerpt: "LaTeX 整理，全文以 PDF 提供。"
 # 列表页主标题会链到该 URL（多为浏览器内打开 PDF）
 link: /files/notes/OPD.pdf

@@ -2,7 +2,7 @@
 published: false
 title: "重温OPD（On-Policy Distillation）"
 collection: notes
-date: 2026-04-23
+date: 2026-04-29
 excerpt: "markdown格式预览"
 ---
 
