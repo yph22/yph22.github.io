@@ -2,11 +2,15 @@
 title: "CapRL++: Unified Reinforcement Learning with Verifiable Rewards for Dense Image and Video Captioning"
 collection: publications
 permalink: /publication/2026-06-08-caprl-plus-plus
-excerpt: "A unified RLVR framework for dense image and video captioning, where caption quality is optimized through verifiable downstream question-answering rewards. Submitted to TPAMI."
+excerpt: "A unified RLVR framework for dense image and video captioning, where caption quality is optimized through verifiable downstream question-answering rewards."
 date: 2026-06-08
 venue: "arXiv preprint"
 status: "Submitted to IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)"
+authors: "<strong>Penghui Yang</strong>*, Long Xing*, Xiaoyi Dong, Yuhang Zang, Yuhang Cao, Yibin Wang, Yujie Zhou, Jiazi Bu, Jianze Liang, Qidong Huang, Jiaqi Wang, Feng Wu, and Dahua Lin"
 paperurl: "https://arxiv.org/abs/2606.09393"
+projecturl: "https://github.com/InternLM/CapRL"
+modelurl: "https://huggingface.co/internlm/CapRL-Video-4B"
+image: "/images/publications/caprlpp-comparison.png"
 citation: '<strong>Penghui Yang</strong>*, Long Xing*, Xiaoyi Dong, Yuhang Zang, Yuhang Cao, Yibin Wang, Yujie Zhou, Jiazi Bu, Jianze Liang, Qidong Huang, Jiaqi Wang, Feng Wu, and Dahua Lin. (2026). "CapRL++: Unified Reinforcement Learning with Verifiable Rewards for Dense Image and Video Captioning." <i>arXiv preprint arXiv:2606.09393</i>. Submitted to TPAMI.'
 ---
 

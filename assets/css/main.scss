@@ -41,3 +41,135 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+.publication-showcase {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.publication-card {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.95fr) minmax(300px, 1.05fr);
+  gap: 1.35rem;
+  align-items: stretch;
+  padding: 1rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 18px;
+  background: var(--global-bg-color);
+  box-shadow: 0 18px 46px rgba(20, 28, 42, 0.1);
+}
+
+.publication-card__media {
+  display: block;
+  min-height: 280px;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #f2f4f7;
+}
+
+.publication-card__media img {
+  width: 100%;
+  height: 100%;
+  min-height: 280px;
+  object-fit: cover;
+  object-position: left center;
+  display: block;
+  transition: transform 180ms ease;
+}
+
+.publication-card:hover .publication-card__media img {
+  transform: scale(1.025);
+}
+
+.publication-card__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  padding: 0.4rem 0.35rem 0.4rem 0;
+}
+
+.publication-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  color: var(--global-text-color-light);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.publication-card__status {
+  padding: 0.28rem 0.62rem;
+  border: 1px solid rgba(238, 124, 45, 0.35);
+  border-radius: 999px;
+  background: rgba(238, 124, 45, 0.1);
+  color: #d86116;
+}
+
+.publication-card__title {
+  margin: 0 0 0.7rem;
+  font-size: clamp(1.25rem, 2.5vw, 1.85rem);
+  line-height: 1.15;
+}
+
+.publication-card__title a {
+  color: var(--global-text-color);
+  text-decoration: none;
+}
+
+.publication-card__title a:hover {
+  color: var(--global-link-color);
+}
+
+.publication-card__authors {
+  margin: 0 0 0.75rem;
+  color: var(--global-text-color);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.publication-card__excerpt {
+  margin: 0 0 1.05rem;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.publication-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: auto;
+}
+
+.publication-card__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.2rem;
+  padding: 0 0.85rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  color: var(--global-text-color);
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.publication-card__button--primary {
+  border-color: #2f6fdf;
+  background: #2f6fdf;
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  .publication-card {
+    grid-template-columns: 1fr;
+  }
+
+  .publication-card__body {
+    padding: 0;
+  }
+}
