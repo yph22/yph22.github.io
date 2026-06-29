@@ -22,7 +22,7 @@ My research interests broadly lie in:
 Currently, I’m particularly interested in **vision-language pre-training** and **post-training alignment** of large multimodal models.
 
 📄 For more details, please see my [**CV**](/assets/CV.pdf)  
-📬 [Email](mailto:yph22@mails.tsinghua.edu.cn) • [GitHub](https://github.com/yph22)
+📬 [Email](mailto:yangpenghui1@pjlab.org.cn) • [GitHub](https://github.com/yph22)
 
 ---
 
