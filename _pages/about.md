@@ -29,7 +29,7 @@ Currently, I’m particularly interested in **vision-language pre-training** and
 ## 📰 News
 
 - **2026.06** — Honored to receive the **Beijing Outstanding Graduate** and **Tsinghua Excellent Graduate** awards.  
-- **2026.06** — Our work **CapRL++**(https://arxiv.org/abs/2606.09393) was submitted to **TPAMI**.  
+- **2026.06** — Our work [**CapRL++**](https://arxiv.org/abs/2606.09393) was submitted to **TPAMI**.  
 - **2025.10.21** — Started my internship at [Shanghai AI Lab](https://www.shlab.org.cn/) (Beijing Base).  
 - **2025.10.10** — Honored to receive the **National Scholarship**.  
 - **2025.05** — Won the **Second Prize** in the *Tsinghua University Artificial General Intelligence Competition* for a [**RAG**](https://github.com/BEEE22/Cleanroom-RAG) project.  
