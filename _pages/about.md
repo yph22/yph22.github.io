@@ -9,9 +9,9 @@ redirect_from:
 
 ## 👋 Hi there!
 
-I'm **Penghui Yang (杨鹏晖)**, a senior undergraduate student majoring in **Building Environment and Energy Engineering** at [Tsinghua University](https://www.tsinghua.edu.cn/).
+I'm **Penghui Yang (杨鹏晖)**, a **Ph.D. student** at the [Shanghai Artificial Intelligence Laboratory (Shanghai AI Lab)](https://www.shlab.org.cn/), under the supervision of [Yuhang Zang](https://yuhangzang.github.io/), in a **joint training program** with the [School of Artificial Intelligence, Shanghai Jiao Tong University (SAI)](https://soai.sjtu.edu.cn/).
 
-I will begin my **Ph.D. journey** in **2026** at the [Shanghai Artificial Intelligence Laboratory (Shanghai AI Lab)](https://www.shlab.org.cn/), under the supervision of [Yuhang Zang](https://yuhangzang.github.io/), in a **joint training program** with the [School of Artificial Intelligence, Shanghai Jiao Tong University (SAI)](https://soai.sjtu.edu.cn/).  
+I received my **Bachelor's degree** in **Building Environment and Energy Engineering** from [Tsinghua University](https://www.tsinghua.edu.cn/) in **2026.06**.  
 
 My research interests broadly lie in:
 
@@ -28,6 +28,8 @@ Currently, I’m particularly interested in **vision-language pre-training** and
 
 ## 📰 News
 
+- **2026.06** — Honored to receive the **Beijing Outstanding Graduate** and **Tsinghua Excellent Graduate** awards.  
+- **2026.06** — Our work **CapRL++**(https://arxiv.org/abs/2606.09393) was submitted to **TPAMI**.  
 - **2025.10.21** — Started my internship at [Shanghai AI Lab](https://www.shlab.org.cn/) (Beijing Base).  
 - **2025.10.10** — Honored to receive the **National Scholarship**.  
 - **2025.05** — Won the **Second Prize** in the *Tsinghua University Artificial General Intelligence Competition* for a [**RAG**](https://github.com/BEEE22/Cleanroom-RAG) project.  
@@ -36,6 +38,8 @@ Currently, I’m particularly interested in **vision-language pre-training** and
 
 ## 🏆 Honors & Awards
 
+- **Beijing Outstanding Graduate**, Beijing Municipal Education Commission (2026.06)  
+- **Tsinghua Excellent Graduate**, *Tsinghua University* (2026.06)  
 - **National Scholarship**, Ministry of Education of China (2025.10)  
 - **Second Prize**, *Tsinghua University Artificial General Intelligence Competition* (2025.05)  
 - **Comprehensive Excellence Scholarship** (Top *10%*), *Tsinghua University* (2024.12)  
@@ -45,7 +49,7 @@ Currently, I’m particularly interested in **vision-language pre-training** and
 
 ## 🎓 Education & Experience
 
-**B.Eng. (2022.08 – 2026.06, expected)**  
+**B.Eng. (2022.08 – 2026.06)**  
 *Department of Building Environment and Energy Engineering, Tsinghua University*  
 - Focused on AI applications in building environment and energy systems.  
 - Rank: 1/16 in my major.  
@@ -54,7 +58,7 @@ Currently, I’m particularly interested in **vision-language pre-training** and
 *Shanghai Artificial Intelligence Laboratory (Beijing Base)*  
 - Exploring **multimodal large language models (MLLMs)**, with a focus on **vision-language pre-training** and **post-training alignment**.  
 
-**Ph.D. Student (2026.09, expected)**  
+**Ph.D. Student (2026.09 – Present)**  
 *Shanghai AI Lab* & *School of Artificial Intelligence, Shanghai Jiao Tong University (Joint Program)*  
 
 ---
