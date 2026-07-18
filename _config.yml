@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Yang Penghui / Personal Homepage"
+title                    : "Penghui Yang"
 title_separator          : "-"
 name                     : &name "Yang Penghui"
-description              : &description "a senior undergraduate student from Tsinghua University"
+description              : &description "Ph.D. student working on multimodal learning, vision-language models, and post-training alignment"
 url                      : https://yph22.github.io
 baseurl                  : ""   # 主页仓库必须留空！
 repository               : "yph22/yph22.github.io"
@@ -26,11 +26,11 @@ author:
   avatar           : "AI.png"
   name             : "Yang Penghui"
   pronouns         : # example: "she/her"  
-  bio              : "Tsinghua University."
-  location         : "China, Beijing"
+  bio              : "Ph.D. Student · Multimodal AI"
+  location         : "Beijing, China"
   employer         : 
   uri              : 
-  email            : "yph22@mails.tsinghua.edu.cn" 
+  email            : "yangpenghui1@pjlab.org.cn"
 
   # Academic websites
   academia         : # URL

@@ -10,6 +10,7 @@
 main:
   - title: "Publications"
     url: /publications/
-  - title: "学习笔记"
+  - title: "Notes"
     url: /notes/
-
+  - title: "CV"
+    url: /assets/CV.pdf
