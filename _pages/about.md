@@ -38,7 +38,7 @@ redirect_from:
     <div class="home-portrait">
       <img src="/images/AI.png" alt="Penghui Yang" fetchpriority="high">
     </div>
-    <div class="home-status"><span></span> Based in Beijing, China</div>
+    <div class="home-status"><span></span> Based in Shanghai, China</div>
   </div>
 </section>
 
@@ -64,7 +64,7 @@ redirect_from:
     <article class="research-card">
       <span class="research-card__number">03</span>
       <i class="fas fa-sliders" aria-hidden="true"></i>
-      <h3>Post-training Alignment</h3>
+      <h3>LLM Post-training/Alignment</h3>
       <p>Aligning foundation models with reliable rewards, preferences, and human intent.</p>
     </article>
   </div>
@@ -106,7 +106,7 @@ redirect_from:
       </li>
       <li>
         <time datetime="2025-10-21">Oct 2025</time>
-        <p>Started my internship at <a href="https://www.shlab.org.cn/">Shanghai AI Lab</a> (Beijing Base).</p>
+        <p>Started my internship at <a href="https://www.shlab.org.cn/">Shanghai AI Lab</a></p>
       </li>
       <li>
         <time datetime="2025-10-10">Oct 2025</time>
@@ -135,7 +135,7 @@ redirect_from:
       <li>
         <time>2025 — Present</time>
         <h3>Research Intern</h3>
-        <p>Shanghai Artificial Intelligence Laboratory, Beijing Base</p>
+        <p>Shanghai Artificial Intelligence Laboratory</p>
       </li>
       <li>
         <time>2022 — 2026</time>
