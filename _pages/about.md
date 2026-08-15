@@ -2,7 +2,7 @@
 permalink: /
 layout: homepage
 title: "Penghui Yang"
-excerpt: "Ph.D. student working on multimodal learning and large language models."
+excerpt: "Ph.D. student working on multimodal learning and large language models, with a growing interest in AI agents."
 redirect_from: 
   - /about/
   - /about.html
@@ -12,9 +12,10 @@ redirect_from:
   <div class="home-hero__copy">
     <p class="home-eyebrow"><span></span>Hello, I’m</p>
     <h1 id="hero-title">Penghui Yang <span>杨鹏晖</span></h1>
-    <p class="home-hero__role">Ph.D. Student · Multimodal AI Researcher</p>
+    <p class="home-hero__role">Ph.D. Student · Multimodal AI Researcher · Exploring AI Agents</p>
     <p class="home-hero__intro">
-      I study how multimodal foundation models learn, reason, and align. I am a Ph.D. student at
+      I study how multimodal foundation models learn, reason, and align, and I am also interested in
+      AI agents that can perceive, reason, and act in complex environments. I am a Ph.D. student at
       <a href="https://www.shlab.org.cn/">Shanghai AI Lab</a>, jointly trained with the
       <a href="https://soai.sjtu.edu.cn/">School of Artificial Intelligence, Shanghai Jiao Tong University</a>,
       under the supervision of <a href="https://yuhangzang.github.io/">Yuhang Zang</a>.
@@ -23,6 +24,7 @@ redirect_from:
       <span>Multimodal Learning</span>
       <span>Vision–Language Models</span>
       <span>Post-training Alignment</span>
+      <span>AI Agents</span>
     </div>
     <div class="home-actions">
       <a class="home-button home-button--primary" href="/publications/">View my research <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
