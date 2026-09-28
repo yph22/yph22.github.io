@@ -141,7 +141,7 @@ redirect_from:
       </li>
       <li>
         <time>2022 — 2026</time>
-        <h3>B.Eng. · Rank 1/16</h3>
+        <h3>B.Eng. · Rank 1st</h3>
         <p>Building Environment & Energy Engineering, Tsinghua University</p>
       </li>
     </ol>
