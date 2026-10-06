@@ -77,6 +77,15 @@
   transition: transform 180ms ease;
 }
 
+.publication-card__media--contain {
+  background: #fff;
+}
+
+.publication-card__media--contain img {
+  object-fit: contain;
+  object-position: center;
+}
+
 .publication-card:hover .publication-card__media img {
   transform: scale(1.025);
 }

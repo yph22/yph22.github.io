@@ -72,6 +72,27 @@ redirect_from:
   </div>
 </section>
 
+<section class="home-section home-feature" aria-labelledby="resopd-featured-title">
+  <div class="home-feature__visual">
+    <img src="/images/publications/resopd-overview.png" alt="ResOPD overview: sparse teacher feedback, gradient variance reduction, and reasoning performance" loading="lazy">
+  </div>
+  <div class="home-feature__copy">
+    <p class="home-kicker">Featured work · 2026</p>
+    <h2 id="resopd-featured-title">ResOPD</h2>
+    <p class="home-feature__subtitle">Tail Residualization for Sparse On-Policy Distillation</p>
+    <p>ResOPD computes the coarse gradient exactly and samples only the fine-tail residual, reducing gradient variance with the same sparse teacher feedback.</p>
+    <div class="home-feature__meta">
+      <span>arXiv Preprint</span>
+      <span>On-Policy Distillation</span>
+    </div>
+    <div class="home-actions">
+      <a class="home-text-link" href="https://arxiv.org/abs/2610.04882">Paper <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+      <a class="home-text-link" href="https://github.com/InternLM/ResOPD">Code <i class="fab fa-github" aria-hidden="true"></i></a>
+      <a class="home-text-link" href="https://huggingface.co/datasets/ygyjrc/ResOPD-deepmath">Dataset <i class="fas fa-database" aria-hidden="true"></i></a>
+    </div>
+  </div>
+</section>
+
 <section class="home-section home-feature" aria-labelledby="featured-title">
   <div class="home-feature__visual">
     <img src="/images/publications/caprlpp-comparison.png" alt="CapRL++ method comparison diagram" loading="lazy">
@@ -80,7 +101,7 @@ redirect_from:
     <p class="home-kicker">Featured work · 2026</p>
     <h2 id="featured-title">CapRL++</h2>
     <p class="home-feature__subtitle">A unified framework for dense visual captioning and multimodal post-training.</p>
-    <p>Our latest work explores a scalable approach to stronger perception and alignment in multimodal large language models.</p>
+    <p>This work explores a scalable approach to stronger perception and alignment in multimodal large language models.</p>
     <div class="home-feature__meta">
       <span>TPAMI Submission</span>
       <span>Multimodal LLMs</span>
@@ -98,6 +119,10 @@ redirect_from:
       </div>
     </div>
     <ol class="home-timeline home-timeline--news">
+      <li>
+        <time datetime="2026-10-04">Oct 2026</time>
+        <p>Our new preprint <a href="https://arxiv.org/abs/2610.04882"><strong>ResOPD</strong></a> introduces tail residualization for sparse on-policy distillation.</p>
+      </li>
       <li>
         <time datetime="2026-06">Jun 2026</time>
         <p>Received the <strong>Beijing Outstanding Graduate</strong> and <strong>Tsinghua Excellent Graduate</strong> awards.</p>

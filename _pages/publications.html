@@ -15,7 +15,7 @@ Please stay tuned for upcoming updates!</p>
   {% for post in site.publications reversed %}
     <article class="publication-card">
       {% if post.image %}
-        <a class="publication-card__media" href="{{ post.paperurl | default: post.url }}" target="_blank" rel="noreferrer">
+        <a class="publication-card__media{% if post.image_fit == 'contain' %} publication-card__media--contain{% endif %}" href="{{ post.paperurl | default: post.url }}" target="_blank" rel="noreferrer">
           <img src="{{ post.image }}" alt="{{ post.title }} teaser">
         </a>
       {% endif %}
@@ -48,6 +48,12 @@ Please stay tuned for upcoming updates!</p>
           {% endif %}
           {% if post.projecturl %}
             <a class="publication-card__button" href="{{ post.projecturl }}" target="_blank" rel="noreferrer">Project</a>
+          {% endif %}
+          {% if post.codeurl %}
+            <a class="publication-card__button" href="{{ post.codeurl }}" target="_blank" rel="noreferrer">Code</a>
+          {% endif %}
+          {% if post.dataseturl %}
+            <a class="publication-card__button" href="{{ post.dataseturl }}" target="_blank" rel="noreferrer">Dataset</a>
           {% endif %}
           {% if post.modelurl %}
             <a class="publication-card__button" href="{{ post.modelurl }}" target="_blank" rel="noreferrer">Model</a>
