@@ -112,34 +112,51 @@ redirect_from:
 
 <section id="projects" class="home-section home-projects" aria-labelledby="projects-title">
   <div class="home-section__heading">
-    <p class="home-kicker">Open-source tools</p>
+    <p class="home-kicker">Open-source projects</p>
     <h2 id="projects-title">Projects</h2>
-    <p>Tools for running, understanding, and learning from AI agents.</p>
+    <p>Multimodal models and tools that turn perception into decisions.</p>
   </div>
-  <article class="home-feature home-project" aria-labelledby="roller-title">
-    <div class="home-project__visual">
-      <img src="{{ '/images/projects/roller-logo.png' | relative_url }}" alt="Roller logo" width="220" height="220" loading="lazy">
-      <p>Run. Inspect. Learn.</p>
-      <span>Agent trajectory collection</span>
+  <article class="home-feature home-project home-project--valen" aria-labelledby="valen-title">
+    <div class="valen-stage" aria-label="Valen: text, image and video inputs to candidate probabilities">
+      <div class="valen-stage__orbit" aria-hidden="true"></div>
+      <div class="valen-stage__header"><span class="valen-stage__dot" aria-hidden="true"></span> MULTIMODAL DECISION MODEL</div>
+      <div class="valen-stage__inputs" aria-hidden="true">
+        <span><i class="fas fa-align-left"></i> Text</span>
+        <span><i class="fas fa-image"></i> Image</span>
+        <span><i class="fas fa-film"></i> Video</span>
+      </div>
+      <div class="valen-stage__connector" aria-hidden="true"></div>
+      <div class="valen-stage__logo">
+        <img src="{{ '/images/projects/valen-logo.svg' | relative_url }}" alt="Valen logo" width="2052" height="583" loading="lazy">
+      </div>
+      <p class="valen-stage__slogan">System One Model,<br><strong>now with vision.</strong></p>
+      <div class="valen-stage__output" aria-hidden="true">
+        <span>OUTPUT</span><strong>Candidate probabilities</strong>
+        <div class="valen-stage__bars"><i></i><i></i><i></i></div>
+      </div>
     </div>
     <div class="home-feature__copy">
-      <p class="home-kicker">Agent infrastructure</p>
-      <h3 id="roller-title" class="home-project__title">Roller</h3>
-      <p class="home-feature__subtitle">One framework. Multiple models and agent harnesses.</p>
-      <p>Run tool-using agents in isolated Docker containers, compare models on the same tasks, and turn their trajectories into training data.</p>
+      <p class="home-kicker">Perception → Decision</p>
+      <h3 id="valen-title" class="home-project__title">Valen <span>万澜</span></h3>
+      <p class="home-feature__subtitle">Multimodal perception. Structured decisions.</p>
+      <p>Valen brings visual perception to System One decision-making. It evaluates text, images, and video against task instructions, returning probabilities over supplied candidates.</p>
       <ul class="home-project__highlights">
-        <li>Integrates OpenClaw, Codex, Claude Code, Hermes, OpenCode, DeepSeek, and Pi Agent.</li>
-        <li>Preserves native traces and exports unified ACTF trajectories and SFT training samples.</li>
-        <li>Includes a trace viewer, retries, and resumable batch collection.</li>
+        <li><strong>Three model sizes.</strong> Explore the 0.8B, 2B, and 4B models.</li>
+        <li><strong>Train and adapt.</strong> Includes data processing, SFT, experimental RLCD, inference, and evaluation tools.</li>
+        <li><strong>Evaluate visual decisions.</strong> VisualDecisionBench covers both image and video tasks.</li>
       </ul>
       <div class="home-feature__meta" aria-label="Project details">
-        <span>Python</span>
-        <span>Docker</span>
-        <span>Apache 2.0</span>
+        <span>Text · Image · Video</span>
+        <span>0.8B / 2B / 4B</span>
+        <span>Apache 2.0 code</span>
       </div>
       <div class="home-actions">
-        <a class="home-button home-button--primary" href="https://github.com/Liuziyu77/Roller"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
-        <a class="home-text-link" href="https://github.com/Liuziyu77/Roller/tree/main/docs">Documentation <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+        <a class="home-button home-button--primary" href="https://github.com/Liuziyu77/Valen"><i class="fab fa-github" aria-hidden="true"></i> Explore Valen <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        <a class="home-button" href="https://huggingface.co/Valen-Team">Models <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+      </div>
+      <div class="valen-resource-links">
+        <a class="home-text-link" href="https://huggingface.co/spaces/yuhangzang/Valen-Preview-0923">Try preview demo <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+        <a class="home-text-link" href="https://github.com/Liuziyu77/Valen/tree/main/docs">Documentation <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
       </div>
     </div>
   </article>

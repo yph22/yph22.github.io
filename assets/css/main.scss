@@ -682,40 +682,6 @@ html[data-theme="dark"] .home-page .home-button--primary {
   grid-template-columns: minmax(0, 0.7fr) minmax(0, 1.3fr);
 }
 
-.home-project__visual {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
-  min-width: 0;
-  padding: 2rem 1rem;
-  border: 1px solid var(--home-border);
-  border-radius: 1.1rem;
-  background: var(--home-card);
-  text-align: center;
-}
-
-.home-project__visual img {
-  display: block;
-  width: min(100%, 220px);
-  height: auto;
-  border-radius: 1rem;
-}
-
-.home-project__visual p {
-  margin: 1.5rem 0 0.4rem;
-  color: var(--global-text-color);
-  font-size: 1.2rem;
-  font-weight: 760;
-  letter-spacing: -0.03em;
-}
-
-.home-project__visual span {
-  color: var(--home-muted);
-  font-size: 0.78rem;
-}
-
 .home-project__title {
   margin: 0;
   color: var(--global-text-color);
@@ -740,6 +706,224 @@ html[data-theme="dark"] .home-page .home-button--primary {
 .home-project .home-actions {
   gap: 1.1rem;
   margin-top: 1.5rem;
+}
+
+.home-project--valen {
+  --valen-accent: #087e75;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(1.5rem, 4vw, 3.5rem);
+  border-color: rgba(35, 180, 160, 0.3);
+  background:
+    radial-gradient(ellipse at 0 0, rgba(34, 195, 166, 0.12), transparent 65%),
+    var(--home-surface);
+  box-shadow: 0 24px 70px rgba(8, 90, 80, 0.1);
+}
+
+html[data-theme="dark"] .home-project--valen {
+  --valen-accent: #6ee7ce;
+}
+
+.home-project--valen .home-kicker,
+.home-project--valen .home-text-link {
+  color: var(--valen-accent);
+}
+
+.home-project__title span {
+  display: inline-block;
+  margin-left: 0.3rem;
+  color: var(--home-muted);
+  font-size: 0.45em;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  vertical-align: middle;
+}
+
+.home-project--valen .home-button--primary {
+  border-color: #087e75;
+  background: #087e75;
+  color: #fff;
+  box-shadow: 0 8px 24px rgba(8, 126, 117, 0.2);
+}
+
+html[data-theme="dark"] .home-project--valen .home-button--primary {
+  color: #fff;
+}
+
+.home-page .home-project--valen .home-button--primary:hover {
+  border-color: #06665f;
+  background: #06665f;
+  color: #fff;
+  box-shadow: 0 12px 30px rgba(8, 126, 117, 0.3);
+}
+
+.home-project--valen a:focus-visible {
+  outline: 3px solid var(--valen-accent);
+  outline-offset: 5px;
+}
+
+.valen-resource-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem 1.4rem;
+  margin-top: 1.25rem;
+}
+
+.valen-stage {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  min-width: 0;
+  padding: clamp(1.25rem, 3vw, 2.25rem);
+  overflow: hidden;
+  border: 1px solid rgba(110, 231, 206, 0.25);
+  border-radius: 1.2rem;
+  background:
+    radial-gradient(ellipse at 50% 42%, rgba(27, 183, 157, 0.24), transparent 65%),
+    linear-gradient(rgba(110, 231, 206, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(110, 231, 206, 0.045) 1px, transparent 1px),
+    #091e25;
+  background-size: auto, 28px 28px, 28px 28px, auto;
+  color: #e5fff8;
+  text-align: center;
+}
+
+.valen-stage__orbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  width: 24rem;
+  height: 24rem;
+  border: 1px solid rgba(110, 231, 206, 0.15);
+  border-top-color: rgba(110, 231, 206, 0.6);
+  border-radius: 50%;
+  box-shadow: 0 0 0 2.5rem rgba(110, 231, 206, 0.025), 0 0 0 5rem rgba(110, 231, 206, 0.025);
+  transform: translate(-50%, -50%);
+  animation: valen-orbit 24s linear infinite;
+}
+
+.valen-stage__header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #b3e5dc;
+  font-family: $monospace;
+  font-size: 0.56rem;
+  letter-spacing: 0.08em;
+}
+
+.valen-stage__dot {
+  flex-shrink: 0;
+  width: 0.35rem;
+  height: 0.35rem;
+  border-radius: 50%;
+  background: #6ee7ce;
+  box-shadow: 0 0 12px #6ee7ce;
+}
+
+.valen-stage__inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.valen-stage__inputs span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.65rem;
+  border: 1px solid rgba(110, 231, 206, 0.25);
+  border-radius: 0.5rem;
+  background: rgba(9, 30, 37, 0.8);
+  font-size: 0.65rem;
+}
+
+.valen-stage__inputs i {
+  color: #6ee7ce;
+}
+
+.valen-stage__connector {
+  width: 1px;
+  height: 2rem;
+  background: linear-gradient(transparent, #6ee7ce);
+}
+
+.valen-stage__logo {
+  width: 100%;
+  max-width: 320px;
+  padding: 1rem;
+  border: 1px solid rgba(110, 231, 206, 0.6);
+  border-radius: 0.9rem;
+  background: #fff;
+  box-shadow: 0 0 35px rgba(34, 195, 166, 0.18);
+}
+
+.valen-stage__logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.valen-stage__slogan {
+  margin: 1.25rem 0 1.75rem;
+  color: #b3cec9;
+  font-size: clamp(1.1rem, 2vw, 1.45rem);
+  letter-spacing: -0.035em;
+  line-height: 1.4;
+}
+
+.valen-stage__slogan strong {
+  color: #81f2d8;
+}
+
+.valen-stage__output {
+  width: 100%;
+  max-width: 280px;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(110, 231, 206, 0.2);
+  border-radius: 0.7rem;
+  background: rgba(5, 21, 27, 0.85);
+  text-align: left;
+}
+
+.valen-stage__output > span {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: #86bcb1;
+  font-family: $monospace;
+  font-size: 0.5rem;
+  letter-spacing: 0.15em;
+}
+
+.valen-stage__output > strong {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.valen-stage__bars {
+  display: flex;
+  gap: 0.25rem;
+  margin-top: 0.7rem;
+}
+
+.valen-stage__bars i {
+  height: 0.3rem;
+  border-radius: 999px;
+  background: #64e3c7;
+}
+
+.valen-stage__bars i:nth-child(1) { flex: 6; }
+.valen-stage__bars i:nth-child(2) { flex: 3; opacity: 0.5; }
+.valen-stage__bars i:nth-child(3) { flex: 1; opacity: 0.25; }
+
+@keyframes valen-orbit {
+  to { transform: translate(-50%, -50%) rotate(360deg); }
 }
 
 .home-panel {
@@ -1030,6 +1214,10 @@ html[data-theme="dark"] .home-page .home-button--primary {
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+
+  .valen-stage__orbit {
+    animation: none;
   }
 
   .research-card,
