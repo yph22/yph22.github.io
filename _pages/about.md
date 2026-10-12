@@ -110,6 +110,41 @@ redirect_from:
   </div>
 </section>
 
+<section id="projects" class="home-section home-projects" aria-labelledby="projects-title">
+  <div class="home-section__heading">
+    <p class="home-kicker">Open-source tools</p>
+    <h2 id="projects-title">Projects</h2>
+    <p>Tools for running, understanding, and learning from AI agents.</p>
+  </div>
+  <article class="home-feature home-project" aria-labelledby="roller-title">
+    <div class="home-project__visual">
+      <img src="{{ '/images/projects/roller-logo.png' | relative_url }}" alt="Roller logo" width="220" height="220" loading="lazy">
+      <p>Run. Inspect. Learn.</p>
+      <span>Agent trajectory collection</span>
+    </div>
+    <div class="home-feature__copy">
+      <p class="home-kicker">Agent infrastructure</p>
+      <h3 id="roller-title" class="home-project__title">Roller</h3>
+      <p class="home-feature__subtitle">One framework. Multiple models and agent harnesses.</p>
+      <p>Run tool-using agents in isolated Docker containers, compare models on the same tasks, and turn their trajectories into training data.</p>
+      <ul class="home-project__highlights">
+        <li>Integrates OpenClaw, Codex, Claude Code, Hermes, OpenCode, DeepSeek, and Pi Agent.</li>
+        <li>Preserves native traces and exports unified ACTF trajectories and SFT training samples.</li>
+        <li>Includes a trace viewer, retries, and resumable batch collection.</li>
+      </ul>
+      <div class="home-feature__meta" aria-label="Project details">
+        <span>Python</span>
+        <span>Docker</span>
+        <span>Apache 2.0</span>
+      </div>
+      <div class="home-actions">
+        <a class="home-button home-button--primary" href="https://github.com/Liuziyu77/Roller"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+        <a class="home-text-link" href="https://github.com/Liuziyu77/Roller/tree/main/docs">Documentation <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </article>
+</section>
+
 <section class="home-section home-two-column">
   <div class="home-panel" aria-labelledby="news-title">
     <div class="home-panel__header">
