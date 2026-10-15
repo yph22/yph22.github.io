@@ -1,0 +1,17 @@
+<div class="publication-card__links">
+  {% if include.post.paperurl %}
+    <a class="publication-card__button publication-card__button--primary" href="{{ include.post.paperurl }}" target="_blank" rel="noreferrer">Paper</a>
+  {% endif %}
+  {% if include.post.projecturl %}
+    <a class="publication-card__button" href="{{ include.post.projecturl }}" target="_blank" rel="noreferrer">Project</a>
+  {% endif %}
+  {% if include.post.codeurl %}
+    <a class="publication-card__button" href="{{ include.post.codeurl }}" target="_blank" rel="noreferrer">Code</a>
+  {% endif %}
+  {% if include.post.dataseturl %}
+    <a class="publication-card__button" href="{{ include.post.dataseturl }}" target="_blank" rel="noreferrer">Dataset</a>
+  {% endif %}
+  {% if include.post.modelurl %}
+    <a class="publication-card__button" href="{{ include.post.modelurl }}" target="_blank" rel="noreferrer">Model</a>
+  {% endif %}
+</div>

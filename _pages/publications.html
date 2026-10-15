@@ -11,56 +11,74 @@ author_profile: true
   <p>I am currently focusing on ongoing research projects, and my first publications are in preparation.
 Please stay tuned for upcoming updates!</p>
 {% else %}
-  <div class="publication-showcase">
-  {% for post in site.publications reversed %}
-    <article class="publication-card">
-      {% if post.image %}
-        <a class="publication-card__media{% if post.image_fit == 'contain' %} publication-card__media--contain{% endif %}" href="{{ post.paperurl | default: post.url }}" target="_blank" rel="noreferrer">
-          <img src="{{ post.image }}" alt="{{ post.title }} teaser">
-        </a>
-      {% endif %}
+  {% assign sorted_pubs = site.publications | sort: "date" | reverse %}
+  {% assign first_author_pubs = sorted_pubs | where_exp: "post", "post.first_author == true" %}
+  {% assign other_pubs = sorted_pubs | where_exp: "post", "post.first_author != true" %}
 
-      <div class="publication-card__body">
+  <p class="publication-note">* Equal contribution</p>
+
+  {% if first_author_pubs.size > 0 %}
+  <section class="publication-section" aria-labelledby="first-author-title">
+    <h2 id="first-author-title" class="publication-section__title">First Author &amp; Co-first Author</h2>
+    <div class="publication-showcase">
+    {% for post in first_author_pubs %}
+      <article class="publication-card">
+        {% if post.image %}
+          <a class="publication-card__media{% if post.image_fit == 'contain' %} publication-card__media--contain{% endif %}" href="{{ post.paperurl | default: post.url }}" target="_blank" rel="noreferrer">
+            <img src="{{ post.image }}" alt="{{ post.title }} teaser">
+          </a>
+        {% endif %}
+
+        <div class="publication-card__body">
+          <div class="publication-card__meta">
+            {% if post.status %}
+              <span class="publication-card__status">{{ post.status }}</span>
+            {% endif %}
+            <span>{{ post.date | default: "1900-01-01" | date: "%Y" }}</span>
+          </div>
+
+          <h3 class="publication-card__title">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h3>
+
+          {% if post.authors %}
+            <p class="publication-card__authors">{{ post.authors }}</p>
+          {% elsif post.citation %}
+            <p class="publication-card__authors">{{ post.citation | split: ". (" | first }}</p>
+          {% endif %}
+
+          {% if post.excerpt %}
+            <p class="publication-card__excerpt">{{ post.excerpt | markdownify | strip_html }}</p>
+          {% endif %}
+
+          {% include publication-links.html post=post %}
+        </div>
+      </article>
+    {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if other_pubs.size > 0 %}
+  <section class="publication-section" aria-labelledby="other-pubs-title">
+    <h2 id="other-pubs-title" class="publication-section__title">Other Publications</h2>
+    <div class="publication-list">
+    {% for post in other_pubs %}
+      <article class="publication-item">
         <div class="publication-card__meta">
           {% if post.status %}
             <span class="publication-card__status">{{ post.status }}</span>
           {% endif %}
           <span>{{ post.date | default: "1900-01-01" | date: "%Y" }}</span>
         </div>
-
-        <h2 class="publication-card__title">
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </h2>
-
+        <h3 class="publication-item__title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
         {% if post.authors %}
           <p class="publication-card__authors">{{ post.authors }}</p>
-        {% elsif post.citation %}
-          <p class="publication-card__authors">{{ post.citation | split: ". (" | first }}</p>
         {% endif %}
-
-        {% if post.excerpt %}
-          <p class="publication-card__excerpt">{{ post.excerpt | markdownify | strip_html }}</p>
-        {% endif %}
-
-        <div class="publication-card__links">
-          {% if post.paperurl %}
-            <a class="publication-card__button publication-card__button--primary" href="{{ post.paperurl }}" target="_blank" rel="noreferrer">Paper</a>
-          {% endif %}
-          {% if post.projecturl %}
-            <a class="publication-card__button" href="{{ post.projecturl }}" target="_blank" rel="noreferrer">Project</a>
-          {% endif %}
-          {% if post.codeurl %}
-            <a class="publication-card__button" href="{{ post.codeurl }}" target="_blank" rel="noreferrer">Code</a>
-          {% endif %}
-          {% if post.dataseturl %}
-            <a class="publication-card__button" href="{{ post.dataseturl }}" target="_blank" rel="noreferrer">Dataset</a>
-          {% endif %}
-          {% if post.modelurl %}
-            <a class="publication-card__button" href="{{ post.modelurl }}" target="_blank" rel="noreferrer">Model</a>
-          {% endif %}
-        </div>
-      </div>
-    </article>
-  {% endfor %}
-  </div>
+        {% include publication-links.html post=post %}
+      </article>
+    {% endfor %}
+    </div>
+  </section>
+  {% endif %}
 {% endif %}

@@ -6,6 +6,7 @@ excerpt: "A unified RLVR framework for dense image and video captioning, where c
 date: 2026-06-08
 venue: "arXiv preprint"
 status: "Submitted to IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)"
+first_author: true
 authors: "<strong>Penghui Yang</strong>*, Long Xing*, Xiaoyi Dong, Yuhang Zang, Yuhang Cao, Yibin Wang, Yujie Zhou, Jiazi Bu, Jianze Liang, Qidong Huang, Jiaqi Wang, Feng Wu, and Dahua Lin"
 paperurl: "https://arxiv.org/abs/2606.09393"
 projecturl: "https://github.com/InternLM/CapRL"
