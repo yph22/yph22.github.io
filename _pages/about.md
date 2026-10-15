@@ -94,8 +94,8 @@ redirect_from:
 </section>
 
 <section class="home-section home-feature" aria-labelledby="featured-title">
-  <div class="home-feature__visual">
-    <img src="/images/publications/caprlpp-comparison.png" alt="CapRL++ method comparison diagram" loading="lazy">
+  <div class="home-feature__visual home-feature__visual--caprlpp">
+    <img src="/images/publications/caprlpp-pipeline.png" alt="CapRL++ training pipeline diagram" loading="lazy">
   </div>
   <div class="home-feature__copy">
     <p class="home-kicker">Featured work · 2026</p>
