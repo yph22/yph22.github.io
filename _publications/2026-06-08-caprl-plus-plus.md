@@ -10,7 +10,8 @@ authors: "<strong>Penghui Yang</strong>*, Long Xing*, Xiaoyi Dong, Yuhang Zang, 
 paperurl: "https://arxiv.org/abs/2606.09393"
 projecturl: "https://github.com/InternLM/CapRL"
 modelurl: "https://huggingface.co/internlm/CapRL-Video-4B"
-image: "/images/publications/caprlpp-comparison.png"
+image: "/images/publications/caprlpp-pipeline.png"
+image_fit: "contain"
 citation: '<strong>Penghui Yang</strong>*, Long Xing*, Xiaoyi Dong, Yuhang Zang, Yuhang Cao, Yibin Wang, Yujie Zhou, Jiazi Bu, Jianze Liang, Qidong Huang, Jiaqi Wang, Feng Wu, and Dahua Lin. (2026). "CapRL++: Unified Reinforcement Learning with Verifiable Rewards for Dense Image and Video Captioning." <i>arXiv preprint arXiv:2606.09393</i>. Submitted to TPAMI.'
 ---
 
