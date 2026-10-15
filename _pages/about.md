@@ -30,6 +30,7 @@ redirect_from:
       <a class="home-button home-button--primary" href="/publications/">View my research <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
       <a class="home-icon-button" href="mailto:yangpenghui1@pjlab.org.cn" aria-label="Email Penghui Yang"><i class="fas fa-envelope" aria-hidden="true"></i></a>
       <a class="home-icon-button" href="https://github.com/yph22" aria-label="Penghui Yang on GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+      <a class="home-icon-button" href="https://www.xiaohongshu.com/user/profile/641d022a0000000011020415" aria-label="Penghui Yang on Xiaohongshu">{% include xiaohongshu-icon.svg %}</a>
     </div>
   </div>
 

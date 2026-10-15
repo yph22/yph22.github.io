@@ -156,6 +156,9 @@
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w icon-pad-right" aria-hidden="true"></i>Wikipedia</a></li>
       {% endif %}                
+      {% if author.xiaohongshu %}
+        <li><a href="https://www.xiaohongshu.com/user/profile/{{ author.xiaohongshu }}">{% include xiaohongshu-icon.svg %}Xiaohongshu</a></li>
+      {% endif %}
       {% if author.xing %}
         <li><a href="https://www.xing.com/profile/{{ author.xing }}"><i class="fab fa-fw fa-xing icon-pad-right" aria-hidden="true"></i>XING</a></li>
       {% endif %}
