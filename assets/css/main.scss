@@ -552,7 +552,7 @@ html[data-theme="dark"] .home-page .home-button--primary {
 
 .research-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
 }
 
@@ -1138,6 +1138,10 @@ html[data-theme="dark"] .home-project--valen .home-button--primary {
 
   .home-honors {
     gap: 1rem;
+  }
+
+  .research-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 

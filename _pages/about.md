@@ -23,6 +23,7 @@ redirect_from:
     <div class="home-tags" aria-label="Research interests">
       <span>Multimodal Learning</span>
       <span>Vision–Language Models</span>
+      <span>Reinforcement Learning</span>
       <span>Post-training Alignment</span>
       <span>AI Agents</span>
     </div>
@@ -47,27 +48,33 @@ redirect_from:
 <section class="home-section" aria-labelledby="research-title">
   <div class="home-section__heading">
     <p class="home-kicker">Research focus</p>
-    <h2 id="research-title">Building capable, efficient, and trustworthy multimodal systems.</h2>
-    <p>My work sits at the intersection of representation learning, model efficiency, and alignment.</p>
+    <h2 id="research-title">Multimodal models that perceive, reason, and act.</h2>
+    <p>My work spans multimodal learning, reinforcement learning for post-training, and AI agents.</p>
   </div>
   <div class="research-grid">
     <article class="research-card">
       <span class="research-card__number">01</span>
       <i class="fas fa-layer-group" aria-hidden="true"></i>
       <h3>Multimodal Learning</h3>
-      <p>Learning unified representations across vision, language, and diverse real-world signals.</p>
+      <p>Building vision–language models that understand images and video, through unified representations and effective data design.</p>
     </article>
     <article class="research-card">
       <span class="research-card__number">02</span>
-      <i class="fas fa-eye" aria-hidden="true"></i>
-      <h3>Vision–Language Models</h3>
-      <p>Improving visual understanding through scalable pre-training and effective data design.</p>
+      <i class="fas fa-arrows-rotate" aria-hidden="true"></i>
+      <h3>Reinforcement Learning</h3>
+      <p>Using RL with verifiable rewards and on-policy distillation to improve perception and reasoning in large models.</p>
     </article>
     <article class="research-card">
       <span class="research-card__number">03</span>
       <i class="fas fa-sliders" aria-hidden="true"></i>
-      <h3>LLM Post-training/Alignment</h3>
+      <h3>Post-training &amp; Alignment</h3>
       <p>Aligning foundation models with reliable rewards, preferences, and human intent.</p>
+    </article>
+    <article class="research-card">
+      <span class="research-card__number">04</span>
+      <i class="fas fa-robot" aria-hidden="true"></i>
+      <h3>AI Agents</h3>
+      <p>Building agents that perceive, reason, and act in complex environments, grounding decisions in what they see.</p>
     </article>
   </div>
 </section>
