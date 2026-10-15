@@ -28,7 +28,6 @@ redirect_from:
     </div>
     <div class="home-actions">
       <a class="home-button home-button--primary" href="/publications/">View my research <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
-      <a class="home-button" href="/assets/CV.pdf"><i class="fas fa-file-lines" aria-hidden="true"></i> CV</a>
       <a class="home-icon-button" href="mailto:yangpenghui1@pjlab.org.cn" aria-label="Email Penghui Yang"><i class="fas fa-envelope" aria-hidden="true"></i></a>
       <a class="home-icon-button" href="https://github.com/yph22" aria-label="Penghui Yang on GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
     </div>
